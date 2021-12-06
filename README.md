@@ -2,7 +2,7 @@
 
 Simple bar chart reports of issues
 
-![Redmine Reports Version](https://img.shields.io/badge/redmine_reports_Plugin-v0.1.0-red) ![Redmine Version](https://img.shields.io/badge/Redmine-v4.x.x-blue) ![Language Support](https://img.shields.io/badge/Languages-en,_de-green) ![Version Stage](https://img.shields.io/badge/Stage-release-important)
+![Redmine Reports Version](https://img.shields.io/badge/Redmine_Plugin-v0.1.0-red) ![Redmine Version](https://img.shields.io/badge/Redmine-v4.x.x-blue) ![Language Support](https://img.shields.io/badge/Languages-en,_de-green) ![Version Stage](https://img.shields.io/badge/Stage-release-important)
 
 The Redmine Reports plugin is a Redmine plugin. It slightly modifies Redmine default report diagram to show vertical bar diagrams and a pleasant color scheme.
 
@@ -20,12 +20,12 @@ More information about xmera Omnia can be found at [xmera](https://xmera.de).
 
 You need a running Redmine instance in order to install the plugin. If you need help with the installation, please refer to [Redmine.org](https://redmine.org).
 
-Instructions for the installation of this plugin can be found in the [official documentation](https://circle.xmera.de/projects/redmine-reports/wiki/Documentation) on
+Instructions for the installation of this plugin can be found in the [official documentation](https://circle.xmera.de/projects/redmine-reports/wiki) on
 [xmera Circle - the  community website of xmera](https://circle.xmera.de).
 
 ## Changelog
 
-All notable changes to this plugin will be reported in the [changelog](/CHANGELOG.md).
+All notable changes to this plugin will be reported in the [changelog](https://circle.xmera.de/projects/redmine-reports/repository/redmine_reports/entry/CHANGELOG.md).
 
 ## License
 
