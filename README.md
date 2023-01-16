@@ -29,7 +29,7 @@ All notable changes to this plugin will be reported in the [changelog](https://c
 
 ## License
 
-Copyright (C) 2021 Liane Hampe (<liaham@xmera.de>), xmera.
+Copyright (C) 2021-2023 Liane Hampe (<liaham@xmera.de>), xmera Solutions GmbH.
 
 This plugin program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
