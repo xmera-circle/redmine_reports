@@ -2,7 +2,7 @@
 
 # This file is part of the Plugin Redmine Reports.
 #
-# Copyright (C) 2021 Liane Hampe <liaham@xmera.de>, xmera.
+# Copyright (C) 2021-2023 Liane Hampe <liaham@xmera.de>, xmera Solutions GmbH.
 #
 # This plugin program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -20,9 +20,9 @@
 
 Redmine::Plugin.register :redmine_reports do
   name 'Redmine Reports'
-  author 'Liane Hampe, xmera'
+  author 'Liane Hampe, xmera Solutions GmbH'
   description 'Simple bar chart reports of issues'
-  version '0.1.0'
+  version '0.1.1'
   url 'https://circle.xmera.de/projects/redmine-reports'
   author_url 'http://xmera.de'
 

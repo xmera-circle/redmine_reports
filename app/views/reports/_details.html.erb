@@ -40,7 +40,8 @@
 </div>
 <%= javascript_tag do %>
   function renderChart(canvas_id, title, chartData){
-    var backgroundColors = ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)'];
+    /* https://github.com/nagix/chartjs-plugin-colorschemes/blob/master/src/colorschemes/colorschemes.tableau.js » tableau.ClassicCyclic13 */
+    let backgroundColors = ['#1f83b4', '#12a2a8', '#2ca030', '#78a641', '#bcbd22', '#ffbf50', '#ffaa0e', '#ff7f0e', '#d63a3a', '#c7519c', '#ba43b4', '#8a60b0', '#6f63bb'];
     var borderColors = [];
     for (var i = 0; i < chartData.datasets.length; i++) {
       chartData.datasets[i].backgroundColor = backgroundColors[i % backgroundColors.length];
@@ -51,12 +52,6 @@
       type: 'bar',
       data: chartData,
       options: {
-         plugins: {
-          colorschemes: {
-            scheme: 'tableau.ClassicCyclic13',
-            override: true
-          }
-        },
         elements: {
           rectangle: {borderWidth: 2}
         },
@@ -87,8 +82,8 @@
   });
 <% end %>
 <% content_for :header_tags do %>
-  <%= javascript_include_tag "Chart.bundle.min" %>
-  <%= javascript_include_tag "chartjs-plugin-colorschemes.min", plugin: 'redmine_reports' %>
+  <% chart = Rails.version > '6' ? 'chart.min' : 'Chart.bundle.min' %>
+  <%= javascript_include_tag chart %>
   <style type="text/css">
     .issue-report-graph {
       width: unset !important;
