@@ -82,7 +82,8 @@
   });
 <% end %>
 <% content_for :header_tags do %>
-  <%= javascript_include_tag "chart.min" %>
+  <% chart = Rails.version > '6' ? 'chart.min' : 'Chart.bundle.min' %>
+  <%= javascript_include_tag chart %>
   <style type="text/css">
     .issue-report-graph {
       width: unset !important;
