@@ -41,7 +41,8 @@
 <%= javascript_tag do %>
   function renderChart(canvas_id, title, chartData){
     /* https://github.com/nagix/chartjs-plugin-colorschemes/blob/master/src/colorschemes/colorschemes.tableau.js » tableau.HueCircle19 */
-    let backgroundColors = ['#1ba3c6', '#2cb5c0', '#30bcad', '#21B087', '#33a65c', '#57a337', '#a2b627', '#d5bb21', '#f8b620', '#f89217', '#f06719', '#e03426', '#f64971', '#fc719e', '#eb73b3', '#ce69be', '#a26dc2', '#7873c0', '#4f7cba'];
+    let backgroundColors = ['#1ba3c6', '#2cb5c0', '#30bcad', '#21B087', '#33a65c', '#57a337', '#a2b627', '#d5bb21', '#f8b620', '#f89217', '#f06719', '#e03426', '#f64971', '#fc719e', '#eb73b3', '#ce69be', '#a26dc2', '#7873c0', '#4f7cba'].reverse();
+
     var borderColors = [];
     for (var i = 0; i < chartData.datasets.length; i++) {
       chartData.datasets[i].backgroundColor = backgroundColors[i % backgroundColors.length];
