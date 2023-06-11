@@ -40,9 +40,8 @@
 </div>
 <%= javascript_tag do %>
   function renderChart(canvas_id, title, chartData){
-    /* https://github.com/nagix/chartjs-plugin-colorschemes/blob/master/src/colorschemes/colorschemes.tableau.js » tableau.HueCircle19 */
-    let backgroundColors = ['#1ba3c6', '#2cb5c0', '#30bcad', '#21B087', '#33a65c', '#57a337', '#a2b627', '#d5bb21', '#f8b620', '#f89217', '#f06719', '#e03426', '#f64971', '#fc719e', '#eb73b3', '#ce69be', '#a26dc2', '#7873c0', '#4f7cba'].reverse();
-
+    /* https://github.com/nagix/chartjs-plugin-colorschemes/blob/master/src/colorschemes/colorschemes.tableau.js » xmera.Paired18 (mixture of brewer.Paired10 and tableau.Classic20) */
+    let backgroundColors = ['#6a3d9a', '#cab2d6', '#ff7f00', '#fdbf6f', '#e31a1c', '#fb9a99', '#7f7f7f', '#c7c7c7', '#8c564b', '#c49c94', '#bcbd22', '#dbdb8d', '#33a02c', '#b1df9a', '#1f78b4', '#a6cee3', '#17becf', '#9edae5'];
     var borderColors = [];
     for (var i = 0; i < chartData.datasets.length; i++) {
       chartData.datasets[i].backgroundColor = backgroundColors[i % backgroundColors.length];
