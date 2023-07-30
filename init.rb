@@ -22,7 +22,7 @@ Redmine::Plugin.register :redmine_reports do
   name 'Redmine Reports'
   author 'Liane Hampe, xmera Solutions GmbH'
   description 'Simple bar chart reports of issues'
-  version '0.1.2'
+  version '0.2.0'
   url 'https://circle.xmera.de/projects/redmine-reports'
   author_url 'http://xmera.de'
 
