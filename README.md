@@ -2,7 +2,7 @@
 
 Simple bar chart reports of issues
 
-![Redmine Reports Version](https://img.shields.io/badge/Redmine_Plugin-v0.1.2-red) ![Redmine Version](https://img.shields.io/badge/Redmine-v5.0.z-blue) ![Language Support](https://img.shields.io/badge/Languages-en,_de-green) ![Version Stage](https://img.shields.io/badge/Stage-release-important)
+![Redmine Reports Version](https://img.shields.io/badge/Redmine_Plugin-v0.2.0-red) ![Redmine Version](https://img.shields.io/badge/Redmine-v5.0.z-blue) ![Language Support](https://img.shields.io/badge/Languages-en,_de-green) ![Version Stage](https://img.shields.io/badge/Stage-release-important)
 
 The Redmine Reports plugin is a Redmine plugin. It slightly modifies Redmine default report diagram to show vertical bar diagrams and a pleasant color scheme.
 
