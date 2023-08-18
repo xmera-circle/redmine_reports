@@ -69,7 +69,9 @@ body:
       description: What version of our plugin are you running?
       options:
         - 0.1.0
-        - 0.1.1 (Latest)
+        - 0.1.2 
+        - 0.2.0
+        - 0.2.1 (Latest)
     validations:
       required: true
   - type: dropdown
